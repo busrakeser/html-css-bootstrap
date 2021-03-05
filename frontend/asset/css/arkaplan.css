@@ -1,0 +1,9 @@
+#container{
+    width: 650px;
+    height: 500px;
+    margin: 0 auto;
+    /*gradient bir renkten diğer renge yumuşak geçiş sağlayarak arkaaplan tasarlamaya olanak sağlar.*/
+    /*gradientler background-image kısmından ekleniyor.*/
+    /*arkaplana resim eklemek istediğimizde background-image kullanılır*/
+
+}

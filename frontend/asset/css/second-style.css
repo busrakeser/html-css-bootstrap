@@ -1,0 +1,90 @@
+/*div#kapsayici {*/
+/*    width: 900px;*/
+/*    background-color: slategray;*/
+/*    margin: auto;*/
+/*}*/
+
+/*div#banner {*/
+/*    width: 880px;*/
+/*    background-color: #af000f;*/
+/*    height: 100px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*div.kutu {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: blue;*/
+/*    margin: 10px;*/
+/*    float: left;*/
+/*}*/
+
+/*.temizle {*/
+/*    clear: both;*/
+/*}*/
+
+/*.floatlefttemizle {*/
+/*    clear: left;*/
+/*}*/
+
+/*position işlemi burdan başlıyor*/
+div#kapsayici {
+    width: 100%;
+    background-color: slategray;
+    margin: auto;
+}
+
+div.kutu {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+
+div#kutu1 {
+    background-color: #af000f;
+    right: 0;
+    /*left: 50px;*/
+}
+
+div#kutu2 {
+    background-color: blue;
+    /*left:30px;*/
+    top: 0;
+
+}
+
+div.kapsayicirelative {
+    width: 100%;
+    background-color: #0892af;
+    margin: auto;
+}
+
+div.kuturelative {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+div#kutu3 {
+    background-color: #a600af;
+    z-index: 3;
+}
+
+div#kutu4 {
+    background-color: darkgreen;
+    left: 30px;
+    top: -80px;
+    z-index: 1;
+    /*visibility: hidden; yaparsak eleman yok olur görünürlüğünü kapamış oluruz.*/
+    /*visibility: hidden;*/
+}
+
+div#kutu5 {
+    background-color: lime;
+    left: 10px;
+    top: -120px;
+    z-index: 2;
+    /*divlerin dışına taşan yazı,resim ve diğer nesnelerin gizlenmesi için overflow özelliği kullanılır.*/
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+/*span {*/
+/*    width: 500px;*/
+/*    height: 150px;*/
+/*    display: block;*/
+/*    background: #af000f;*/
+/*    margin-top: 10px;*/
+/*}*/
+.kutu {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: blue;
+    /*float: left;*/
+    /*display: inline-block;*/
+    /*display:inline; yaparsak width ve heigth değerlerini kullamazlar ama yanyana gelirler*/
+    /*hem yanyana gelsinler hem de width ve heigth değerlerini kullanabilmek istiyorsak display: inline-block; yapabiliriz*/
+    /*div gibi blok seviyesinndeki etiketleri anyana getirmek istiyorsak float: left;, display:inline-block kullanılabilir.*/
+    text-align: center;
+    /*text-align: center; yazıyı yatayda ortalamayı sağlar.*/
+    /*vertical-align: middle; top bottom tablolardaki yazıların dikeyde ortalanması için kullanılır.*/
+    /*    yazıyı dikeyde ortalamak için display:table-cell; diyip vertical align kullanılabilir furuma gelebilri.*/
+    display: table-cell;
+    vertical-align: middle;
+    /*-----------------------------------------------------------------------------------------------*/
+}

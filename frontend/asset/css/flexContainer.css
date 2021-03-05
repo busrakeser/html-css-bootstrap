@@ -1,0 +1,132 @@
+
+/*<!--conteiner için yani kapsayıcı için kullanılanlar (css)-->*/
+
+
+
+/*justify-content: içindeki elemanları yatayda hizalamaya yarar (tek satırlık)*/
+/*flex-start: sola yaslı*/
+/*flex-end: sağa yaslı*/
+/*center: ortalama*/
+/*space-between: iki yana hizalı ve aradaki boşluklar otomatik ayarlanır*/
+/*space-around: elementler sağdan soldan otomatik boşluklu ayarlanır*/
+/*.container{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    background-color: #4644ff;*/
+/*}*/
+/*.kutu{*/
+/*    background-color: #f1f1f1;*/
+/*    width: 100px;*/
+/*    text-align: center;*/
+/*    line-height: 75px;*/
+/*    font-size: 30px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+/*align-items nesneleri dikeyde hizalamayı sağlar (tek satırlık)*/
+/*stretch:ekrandaki conteiner ı komple kapsar*/
+/*center:ekranın ortasında*/
+/*flex-start:ekranın başınnda*/
+/*flex-end:ekranın sonunda*/
+/*.container{*/
+/*    display: flex;*/
+/*    height: 400px;*/
+/*    align-items: stretch;*/
+/*    background-color: #4644ff;*/
+/*}*/
+/*.kutu{*/
+/*    background-color: #f1f1f1;*/
+/*    width: 100px;*/
+/*    text-align: center;*/
+/*    line-height: 75px;*/
+/*    font-size: 30px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+
+/*flex-direction : conteiner içindeki nesnelerin sıralama yönünü belirler*/
+/*row:soldan sağa yatayda sıralanır*/
+/*row-reverse:sağdan sola yatayda sıralanır*/
+/*column:yukarıdan aşağıya dikeyde sıralanır*/
+/*column-reserve:aşağıdan yukarıya dikeyde sıralanır*/
+/*.container{*/
+/*    display: flex;*/
+/*    height: 400px;*/
+/*    flex-direction: row-reverse;*/
+/*align-items: flex-start;*/
+/*    background-color: #4644ff;*/
+/*}*/
+/*.kutu{*/
+/*    background-color: #f1f1f1;*/
+/*    width: 100px;*/
+/*    text-align: center;*/
+/*    line-height: 75px;*/
+/*    font-size: 30px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+
+/*flex-wrap : iki veya daha fazla satırdan oluşan esnek kutuların nasıl sıralanacağını belirlemek için kullanılır*/
+/*nowrap:tek satırda oluurlar*/
+/*wrap:sığmadığında alt satıra iner*/
+/*wrap-reserve:ters sıralanır*/
+/*.container{*/
+/*    display: flex;*/
+/*    height: 400px;*/
+/*    !*flex-direction: row-reverse;*!*/
+/*    align-items: flex-start;*/
+/*    background-color: #4644ff;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
+/*.kutu{*/
+/*    background-color: #f1f1f1;*/
+/*    width: 100px;*/
+/*    text-align: center;*/
+/*    line-height: 75px;*/
+/*    font-size: 30px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*flex-flow: flex-direction ve flex-wrap in aynı anda kullanılmasnın kısa yoludur*/
+
+
+/*align-content: iki veya daha fazla satırdan oluşan kutuların dikeyde hizalanmsaını ve boyutlandırılmasını sağlar*/
+/*stretch flex-start flex-end center space-between space-around değerleini alır. */
+/*çoklu satır kullanılabilmesi için flex-wrap:wrap yapılmalı*/
+
+
+
+/*order: html de hangi sırayla yazarsak elemnetler o sırayla oluşur. yerlerini değiştirmek*/
+/*istesiğimiz zaman order ile sayı ataması yaparak sıralayabiliriz*/
+/*!*en küçük önce çıkar*! order:2*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*item flex özellikleri : container içerisindeki elemanların özellikleri*/
+
+
+/*flex-grow: aynı container içinde bulunan esnek kutuların birbirine göre olan boyutlarını ayarlar*/
+/*flex-grow: 1*/
+/*flex-grow: 3*/
+/*flex-grow: 0 verildiğinde kutunun boyutu büyümez*/
+
+
+
+

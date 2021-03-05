@@ -1,0 +1,38 @@
+#yazi2 p {
+    /*linkin altından font family kısmını css e kopyalıyoruz.*/
+    font-family: 'Big Shoulders Display', cursive;
+    /*font-weight: yazının kalınlığını belirler 100 ile 900 arasında değişir 900 en kalın 100 er 100 er artar;*/
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+    /*color: #af000f; yazının rengini belirler*/
+    /*font-size: 30px; yazının boyutunu belirler*/
+    /*line-height: 50px satırlar arası boşluk vermmek için kullanılır;*/
+    /*text-decoration: overline, line-through gibi seçeneklerle yazının üstünü altını çizer ;*/
+    /*text-align: center yazıyı ortalar;*/
+    /*letter-spacing: 5px harfler arası boşluk;*/
+    /*word-spacing: 10px; kelimeler arası boşluk*/
+    /*direction: rtl; yazılaarın soldan sağa sağdan sola yazmak için kullanılır. */
+/*text-shadow: 10px 10px 5px gray; yatada ne kadar kayacak, dikeyde ne kadar kayacak, bulanıklık, renk -> gölge işlem sırası*/
+/*text-transform: capitalize;kelimelerin ilk harfler büyük diğerleri küçük harf olsun demek*/
+/*text-transform: uppercase tüm harfler büyük;*/
+/*text-transform: lowercasetüm harfler küçük;*/
+/*text-indent:20px ilk satır girintisi yan satır başı;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

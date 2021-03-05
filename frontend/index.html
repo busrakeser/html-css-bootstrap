@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML-CSS-Bootstrap</title>
+    <link rel="shortcut icon" href="asset/image/simge.jpg"/>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/js/script.js"></script>
+
+<!--    <style>-->
+<!--        #cerceve {-->
+<!--            width: 100px;-->
+<!--            height: 100px;-->
+<!--            background-color: brown;-->
+<!--            padding: 30px;-->
+<!--            margin: 30px;-->
+<!--            border: 30px solid blue;-->
+<!--            /*divin asıl kapladığı alan 100px değil 280px oldu margin ve padding ile */-->
+<!--        }-->
+<!--    </style>-->
+
+</head>
+<body>
+
+<!--&lt;!&ndash;<a name="baslik">Yukarı çıkma</a>&ndash;&gt;-->
+<!--<h1>Ana Başlık</h1>-->
+<!--<p align="center">align=left, right, center, justify olabilir sağa sola hizalama anlamında bir nitelik<br> br tag ı bir-->
+<!--    alt satır inme enterlama işlemidir</p>-->
+<!--<strong>kalın yazı yazma</strong><br>-->
+<!--<b>kalın yazı yazma</b><br>-->
+<!--<i>italik yazma</i><br>-->
+<!--<u>altı çizgili yazılar</u><br>-->
+<!--<del>üstü çizgili yazılar için</del>-->
+<!--<br>-->
+<!--<p><b><i>iç içe taglar kullanabilir</i></b></p>-->
+<!--<p>p elementi otamatik satır atlatır</p>-->
+<!--<p>p elementi otamatik satır atlatır</p>-->
+
+<!--<hr>-->
+<!--<hr>-->
+<!--<p>3 <sup>5</sup>=3 üzeri 5 üslü ifadesinin sup tagi ile yazılımı</p>-->
+<!--<p>H <sub>2</sub>O= Kimyasal ifadelerde sub tagi kullanımı </p>-->
+
+<!--<pre>pre tagi içerisinde-->
+<!--yazılan ifadeler-->
+<!--nasıl yazıldıysa-->
+<!--öyle görünür not: p taginde nasıl yazarsan yaz tek satır haline getirir.-->
+<!--</pre>-->
+<!--<marquee>marquee tagi ile kayan yazılar oluşturulur</marquee>-->
+<!--<br>-->
+<!--<marquee width="700px" behavior="alternate">marquee tagine behavior="alternate" özelliğini eklersek sayfadan kaybolmaz-->
+<!--</marquee>-->
+<!--<marquee width="700px" behavior="slide">marquee tagine behavior="slide" özelliğini eklersek yazı kayar ve kalır-->
+<!--</marquee>-->
+<!--<br>-->
+<!--<marquee width="200px">marquee tagine width ve height özeellikleri eklenerek kayan yazılar oluşturulur</marquee>-->
+<!--<marquee width="200px" height="200px" direction="down">marquee tagine direction="down" yukarı aşağı kayma down, up-->
+<!--</marquee>-->
+<!--<marquee width="200px" height="200px" direction="down" scrolldelay="1000">marquee tagine scrolldelay="1000" kayma hızı-->
+<!--</marquee>-->
+
+<!--<hr>-->
+<!--<hr>-->
+
+<!--<p>Sıralı ve Sırasız Listeler</p>-->
+<!--<p>Sırasız Liste</p>-->
+<!--<ul type="square">-->
+<!--    <li>sırasız liste</li>-->
+<!--    <li>peyir</li>-->
+<!--    <li>yoğurt</li>-->
+<!--</ul>-->
+
+<!--<p>Sıralı liste</p>-->
+<!--<ol type="I" start="3">-->
+<!--    <li>Armut</li>-->
+<!--    <li>Elma</li>-->
+<!--    <li>Erik</li>-->
+<!--</ol>-->
+
+<!--<p>İç İçe Liste</p>-->
+<!--<ol>-->
+<!--    <li>Meyveler</li>-->
+<!--    <ul>-->
+<!--        <li>Elma</li>-->
+<!--        <li>Armut</li>-->
+<!--    </ul>-->
+<!--    <li>Süt Ürünleri</li>-->
+<!--    <ul>-->
+<!--        <li>Peynir</li>-->
+<!--        <li>Yoğurt</li>-->
+<!--    </ul>-->
+<!--</ol>-->
+<!--<hr>-->
+<!--<h3>Link verme a tagi</h3>-->
+<!--<a href="http://google.com.tr">Başka sayfa</a><br>-->
+<!--<a href="second-page.html">İkinci Sayfa</a><br>-->
+<!--<a href="mailto:busra.kesr@gmail.com">Mail gönderme</a><br>-->
+<!--&lt;!&ndash;<a href="#baslik">Yukarı çık</a><br>&ndash;&gt;-->
+<!--&lt;!&ndash;tıklandığında hangi tag e gideceğini href kısmında gidilecek tag in name ini vererek belirliyoruz.&ndash;&gt;-->
+<!--<a target="_blank" href="http://google.com.tr">Yeni sekmede açmak için target="_blank"</a><br>-->
+<!--<hr>-->
+<!--<hr>-->
+<!--<h2>Resim ekleme</h2>-->
+<!--<img src="asset/image/simge.jpg" alt="alt içerisinde Seo için resmn ne içerdiğini yazmalıyız" width="150" height="200"><br>-->
+<!--<img src="asset/image/doga.jpg" alt="border ile çerçeve verdik" width="150" height="200" border="5"><br>-->
+<!--<a href="http://google.com.tr"><img src="asset/image/simge.jpg" alt="resme tıklandığında linke yönlendirme" width="150" height="200"><br></a>-->
+<!--<img src="https://petihtiyac.com/Data/EditorFiles/tavsanbakimi_petihtiyac.jpg" alt="bir sayfadaki resmi kullanma resmin bağlantı adresini kopyala yapıştır">-->
+
+<!--<h3>Form Kontrol İşlemleri</h3>-->
+
+<!--<p>method get ya da post action formun hangi sayfaya yönlendirileceğidir. aynı sayfaya yönlendirilrse action boş kalmalı</p>-->
+<!--<form name="bilgi" id="bilgi" method="get" action="">-->
+<!--Adınız: <input type="text" id="ad" name="ad">-->
+<!--    <textarea name="adres" id="adres" cols="30" rows="10"></textarea>-->
+<!--    <input type="submit" name="gonder" id="gonder" >-->
+<!--    submit ile buton farkı-->
+<!--    submitte tıklandığında veriler gönderilir url de de get isteği olduğu için görülür -->
+<!--    butonda tıklandığında veriler gönderilmez javascript te kullanılabilmek için tutulur.-->
+
+<!--    radio button tek seçim checkbox çoklu seçiim için kullanılı-->
+<!--nameleri aynı yaparak gruplandırdık ya kadın ya erkek seçilecek -->
+<!--    value de verdiğimiz değerler url de görünecek ve diğer sayfalara gönderilen blgiler olacak-->
+<!--    <input type="radio" name="cinsiyet" id="erkek" value="E"> Erkek-->
+<!--    <input type="radio" name="cinsiyet" id="kadin" value="K"> Kadın <br>-->
+
+<!--    <input type="radio" name="medeni" id="bekar" value="B"> Bekar-->
+<!--    <input type="radio" name="medeni" id="evli" value="E"> Evli <br>-->
+
+<!--    <input type="checkbox" name="hobi" id="spor" value="1">Spor-->
+<!--    <input type="checkbox" name="hobi" id="kitap" value="2">Kitap-->
+<!--    <input type="checkbox" name="hobi" id="gezi" value="3">Gezi-->
+<!--    <input type="checkbox" name="hobi" id="muzik" value="4">Müzik <br>-->
+<!--&lt;!&ndash; butona name veermedik ve url de gözükmedi eğer gözükmesini istersek name vereceğiz ve value değeri gözükecek&ndash;&gt;-->
+<!--    <input type="submit" value="Gönder" id="gonder" >-->
+<!--zorunlu alanlara required iteliği eklenmeli -->
+<!--    tel kısmındaki pattern 0 la 9 arasında 3 rakan girilecek şeklinde format belrleme için kullanılıyor.-->
+<!--    placeholder tıklanana kadar silik yazar bilgi için kullanılır.-->
+<!--    autofocus eklenirse otomatık  tıklanmış gelir-->
+<!--    şifre gibi bilgiler alınacağı zaman post methodu ile gönderilmeli-->
+<!--    Kullanıcı Adı: <input type="text" id="ad" name="ad" autofocus required> <br>-->
+<!--    Şifre: <input type="password" name="password" id="password" required> <br>-->
+<!--    Telefon: <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required> <br>-->
+<!--    E-Posta: <input type="email" name="email" id="email" required> <br>-->
+<!--    Web Siteniz: <input type="url" name="website" id="website" required> <br>-->
+<!--    <input type="submit" name="gonder" id="gonder" value="Gönder">-->
+
+<!--<h2>Select</h2>-->
+<!--    <select name="iller" id="iller" required>-->
+<!--        <option value="Adana">Adana</option>-->
+<!--        <option value="İstanbul">İstanbul</option>-->
+<!--        <option value="Bursa">Bursa</option>-->
+<!--    </select>-->
+<!--    <input type="submit" value="Gönder" name="gonder" id="gonder">-->
+
+<!--    <h2>Number File Tags</h2>-->
+<!--    &lt;!&ndash;    15 ile 100 arası sayıların grileceği bir alan oluşturduk.&ndash;&gt;-->
+<!--    Yaşınız: <input type="number" name="yas" id="yas" min="15" max="100" placeholder="15-100"> <br>-->
+<!--    Dosya seçiniz: <input type="file" name="dosya" id="dosya"> <br>-->
+<!--    <input type="submit" name="gonder" value="Gönder" id="gonder">-->
+<!--&lt;!&ndash;form elemnlarını temzlemek için bir buton kullanılır type reset seçilir&ndash;&gt;-->
+<!--    <input type="reset" name="reset" value="Temizle">-->
+
+<!--    <h2>Tarih ve saat kontrolleri</h2>-->
+<!--    <label for="ay">Ay:</label>-->
+<!--    <input type="month" id="ay" name="ay" min="2018-01" max="2019-12"> <br>-->
+<!--    Hafta : <input type="week" id="hafta" name="hafta"> <br>-->
+<!--   Tarih : <input type="date" name="tarih" id="tarih"> <br>-->
+<!--    Saat: <input type="time" name="saat" id="saat" value="01.00"> <br>-->
+<!--    Tarih ve Saat: <input type="datetime-local" name="ts" id="ts"> <br>-->
+<!--    <input type="submit" name="gonder" id="gonder" value="Gönder">-->
+
+<!-- -->
+
+<!--</form>-->
+
+<!--<h2>Tablo yapısı</h2>-->
+<!--tablo oluşturmak için table tagi içerisinde-->
+<!--tr satır-->
+<!--td sütun-->
+<!--rowspan ile satırları colspan ile sütunları birleştiriyoruz-->
+
+<!--<table width="150" border="1">-->
+<!--    <tr>-->
+<!--        <td colspan="4" align="center">A</td>-->
+
+<!--    </tr>-->
+<!--      <tr>-->
+<!--        <td rowspan="2">A</td>-->
+<!--        <td>B</td>-->
+<!--        <td>C</td>-->
+<!--        <td>D</td>-->
+<!--    </tr>-->
+<!--      <tr>-->
+<!--&lt;!&ndash;        <td>A</td>&ndash;&gt;-->
+<!--        <td>B</td>-->
+<!--        <td>C</td>-->
+<!--        <td>D</td>-->
+<!--    </tr>-->
+
+
+<!--</table>-->
+
+<!--<div id="cerceve"></div>-->
+
+<!--defterdeki örnek ççizim1-->
+
+<!--<div id="container">-->
+<!--    <header id="banner"></header>-->
+<!--    <nav></nav>-->
+<!--    <section id="content">-->
+<!--        <header id="contentheader"></header>-->
+<!--        <article id="contentarticle" ></article>-->
+<!--        <footer id="contentfooter"></footer>-->
+<!--    </section>-->
+
+<!--    <aside></aside>-->
+<!--    <footer id="sitesonu"></footer>-->
+
+<!--</div>-->
+
+
+</body>
+</html>

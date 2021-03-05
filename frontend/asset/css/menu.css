@@ -1,0 +1,125 @@
+/*nav {*/
+/*    margin: 0 auto;*/
+/*    padding: 0;*/
+/*}*/
+
+/*nav ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*nav ul li {*/
+/*    !*display: block;ile li lerin etrafında bir kutucuk oluşmasını sağladık*!*/
+/*    display: block;*/
+/*    float: left;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*nav ul li a {*/
+/*    display: block;*/
+/*    padding: 5px 20px;*/
+/*    background: brown;*/
+/*    border-radius: 5px;*/
+/*    color: #ffffff;*/
+/*    text-decoration: none;*/
+/*    width: 150px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*nav ul li a:hover {*/
+/*    background: white;*/
+/*    color: #000000;*/
+/*    !*transition-duration: geçiş süresini yavaşlatır.;*!*/
+/*    transition-duration: 0.5s;*/
+/*}*/
+
+/*nav ul li ul {*/
+/*    !*display: none;verilen nesneler görünmez*!*/
+/*    display: none;*/
+/*    !*menü üzerineki derslere gelindiğinde büyüme olmaması için position absolute verdik*!*/
+/*    position: absolute;*/
+/*    width: 100px;*/
+/*    left: 128px;*/
+/*}*/
+
+/*nav ul li:hover ul {*/
+/*    display: block;*/
+/*    left: 218px;*/
+/*}*/
+
+/*nav ul li ul li {*/
+/*    display: block;*/
+/*    width: 150px;*/
+/*}*/
+
+/*nav ul li ul li a {*/
+/*    display: block;*/
+/*    width: 150px;*/
+/*    text-align: left;*/
+
+
+/*}*/
+/*dikey menü kısmı*/
+
+nav {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    /*display: block;ile li lerin etrafında bir kutucuk oluşmasını sağladık*/
+    display: block;
+    /*float: left;*/
+    margin-left: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 20px;
+    background: brown;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #000000;
+    /*transition-duration: geçiş süresini yavaşlatır.;*/
+    transition-duration: 0.5s;
+}
+
+nav ul li ul {
+    /*display: none;verilen nesneler görünmez*/
+    display: none;
+    /*menü üzerineki derslere gelindiğinde büyüme olmaması için position absolute verdik*/
+    position: absolute;
+    width: 100px;
+    /*left: 128px;*/
+    margin: -30px -20px;
+}
+
+nav ul li:hover ul {
+    display: block;
+    left: 218px;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 150px;
+}
+
+nav ul li ul li a {
+    display: block;
+    width: 150px;
+    text-align: left;
+
+
+}

@@ -1,0 +1,120 @@
+/*!*metin kutusu biçimlendirme*!*/
+/*input[type="text"]{*/
+/*    width: 250px;*/
+/*    border: 2px solid #aaa;*/
+/*    border-radius: 5px;*/
+/*    margin: 8px 0;*/
+/*    outline: none;*/
+/*    padding: 10px 0 10px 40px;*/
+/*    transition: .3s;*/
+/*}*/
+/*input[type="text"]:focus{*/
+/*    border-color: deepskyblue;*/
+/*    box-shadow: 0 0 10px 0 deepskyblue;*/
+/*}*/
+/*.ikonekle{*/
+/*    position: relative;*/
+
+/*}*/
+/*.ikonekle i{*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    font-size: 18px;*/
+/*    padding: 20px 10px;*/
+/*    color:#aaa ;*/
+/*}*/
+/*input[type="text"]:focus + i{*/
+/*    color: deepskyblue;*/
+/*}*/
+
+
+/*checkbox biçimlendirme*/
+/*input[type="checkbox"] {*/
+/*    display: none;*/
+/*}*/
+/*yazı ve resim*/
+/*span::before {*/
+/*    content: "seçilmedi";*/
+/*}*/
+
+/*input[type="checkbox"]:checked + span:before {*/
+/*    content: url("data:image/png;base64,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");*/
+/*}*/
+
+/*fontawesome ile*/
+/*input[type="checkbox"] {*/
+/*    display: none;*/
+/*}*/
+/*span{*/
+/*    position: relative;*/
+/*    margin-left: 40px;*/
+/*    line-height: 40px;*/
+/*}*/
+/*span:before{*/
+/*    position: absolute;*/
+/*    content: "\f0c8";*/
+/*    font-family:'Font Awesome 5 Free' ;*/
+/*    font-size: 2em;*/
+/*    color: #e8e8e8;*/
+/*    left: -40px;*/
+/*}*/
+/*input[type="checkbox"]:checked + span:before {*/
+/*    content: "\f14a";*/
+/*    font-family:'Font Awesome 5 Free' ;*/
+/*    font-size: 2em;*/
+/*    color:#06a3e9 ;*/
+/*    animation: anima 0.5s ease;*/
+
+/*}*/
+/*@keyframes anima {*/
+/*    0%{*/
+/*        font-size: 1.8em;*/
+/*    }*/
+/*    50%{*/
+/*        font-size: 2.3em;*/
+/*    }*/
+/*    100%{*/
+/*        font-size: 2em;*/
+/*    }*/
+/*}*/
+
+
+
+
+/*radio button*/
+input[type="radio"] {
+    display: none;
+}
+span{
+    position: relative;
+    margin-left: 40px;
+    line-height: 40px;
+}
+span:before{
+    position: absolute;
+    content: "\f111";
+    font-family:'Font Awesome 5 Free' ;
+    font-size: 2em;
+    color: #e8e8e8;
+    left: -40px;
+}
+input[type="radio"]:checked + span:before {
+    content: "\f192";
+    font-family:'Font Awesome 5 Free' ;
+    font-size: 2em;
+    color:#06a3e9 ;
+    animation: anima 0.5s ease;
+
+}
+@keyframes anima {
+    0%{
+        font-size: 1.8em;
+    }
+    50%{
+        font-size: 2.3em;
+    }
+    100%{
+        font-size: 2em;
+    }
+}

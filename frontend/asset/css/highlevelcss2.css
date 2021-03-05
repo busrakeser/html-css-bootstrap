@@ -1,0 +1,293 @@
+/*1*/
+/*.buton{*/
+/*    display: inline-block;*/
+/*    padding: 30px 50px;*/
+/*    background: #33ecf5;*/
+/*    color: aliceblue;*/
+/*    !*geçiş efektinin 0.8 saniyede gerçekleşmesini sağladık*!*/
+/*    transition-duration: .8s;*/
+/*    !*fareyle üzerine gelindiğinde ne kadar süre sonra geçiş gerçekleşeceği*!*/
+/*    transition-delay: 1s;*/
+/*    !*hangi özelliğini etkileneceğini seçmek istersek*!*/
+/*    transition-property: width;*/
+/*}*/
+/*.buton:hover{*/
+/*    background: #455ff9;*/
+/*}*/
+
+
+/*2*/
+/*.kapsayici{*/
+/*    width: 350px;*/
+/*    height: 300px;*/
+/*    background: #8BBEB2;*/
+
+/*}*/
+/*.kutu1{*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    background: #a600af;*/
+/*    transition: width 2s ease;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.kutu2{*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    background: #a600af;*/
+/*    transition: width 2s ease-in;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.kutu3{*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    background: #a600af;*/
+/*    transition: width 2s ease-out;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.kutu4{*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    background: #a600af;*/
+/*    transition: width 2s ease-in-out;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.kutu5{*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    background: #a600af;*/
+/*    transition: width 2s linear;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.kapsayici:hover .kutu1{*/
+/*    width: 300px;*/
+/*}*/
+/*.kapsayici:hover .kutu2{*/
+/*    width: 300px;*/
+/*}*/
+/*.kapsayici:hover .kutu3{*/
+/*    width: 300px;*/
+/*}*/
+/*.kapsayici:hover .kutu4{*/
+/*    width: 300px;*/
+/*}*/
+/*.kapsayici:hover .kutu5{*/
+/*    width: 300px;*/
+/*}*/
+
+
+
+/*3*/
+/*animation*/
+/*.kutu{*/
+/*    position: relative;*/
+/*    padding: 2px;*/
+/*    width: 300px;*/
+/*    height: 30px;*/
+/*    border-radius: 15px;*/
+/*    background: #18314F;*/
+/*}*/
+/*.ic{*/
+/*    position: relative;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    background: #0892af;*/
+/*    border-radius: 15px;*/
+/*    animation-name: ilerle;*/
+/*    animation-duration: 3s;*/
+/*    animation-timing-function: ease-in-out;*/
+/*    !*animation-iteration-count: 3; tekrar sayısı*!*/
+/*    !*animation-iteration-count: infinite; sürekli çalışması*!*/
+/*    !*animation-direction: alternate; ileri geri hareket etmesi from to to from*!*/
+/*    !*animation-direction: reverse; sondan başaa doğru çalışma to from from to*!*/
+/*    !*animation-fill-mode: forwards;animasyonun bittiği yerde kalmasını sağlar*!*/
+
+/*}*/
+/*.ic:hover{*/
+/*    !*animasyonun üzerine gelince durdurma işlemini gerçekleştirdik*!*/
+/*    animation-play-state: paused;*/
+/*}*/
+/*@keyframes ilerle {*/
+/*    from{width: 30px;}*/
+/*    to{width: 300px;}*/
+/*}*/
+
+
+
+/*4*/
+/*transform*/
+/*img{*/
+/*    width: 150px;*/
+/*    margin: 100px auto;*/
+/*    transition: all 1s linear;*/
+/*    !*nerden dönüş yapılacağı 0 0 grilirse sol üst 100% 0 sağ üst köseden dönüş sağlanır*!*/
+/*    transform-origin: 0 0;*/
+/*    display: block;*/
+/*}*/
+/*img:hover{*/
+/*    !*rotate + girilirse saat yönünde - girilirse saat yönünün tersinde döndürülür*!*/
+/*    transform: rotate(-45deg);*/
+/*}*/
+
+
+
+/*5*/
+/*scale*/
+/*.kutu{*/
+/*    width: 400px;*/
+/*    height: 200px;*/
+/*    background: #18314F;*/
+/*    margin: 100px auto;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #8BBEB2;*/
+/*}*/
+/*.kutu img{*/
+/*    width: 400px;*/
+/*    height: 200px;*/
+/*    transition: all 1s ease-in-out ;*/
+/*}*/
+/*img:hover{*/
+/*    transform: scale(2);*/
+/*    !*resmin boyutunu 2 katına çıkar demek*!*!*/
+/*    !*transform: scale(1.3, 2);scale(width, height)*!*/
+/*}*/
+
+
+/*6*/
+/*translate konum değiştirme*/
+/*.kutu{*/
+/*    width:300px ;*/
+/*    height: 200px;*/
+/*    background: #a600af;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #18314F;*/
+/*    !*transform: translate(x,y);*!*/
+/*    transform: translate(-150px, -100px);*/
+/*    !*transform: translate(-50%, -50%);responsive yapılar için kutunun genişliği ve yüksekliğine göre yüzde alır*!*/
+/*}*/
+/*img{*/
+/*    width: 300px;*/
+/*    height: 200px;*/
+/*    transition: all 1s ease-in-out;*/
+/*}*/
+/*img:hover{*/
+/*    transform: translate(150px, 150px) scale(1.5) rotate(20deg);*/
+/*}*/
+
+
+/*7*/
+/*skew*/
+/*.kutu{*/
+/*    width: 500px;*/
+/*    height: 200px;*/
+/*    position: absolute;*/
+/*    background: #18314F;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #af000f;*/
+/*    !*sayfanın otasına getirmek için yaptık*!*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+/*img{*/
+/*    width: 500px;*/
+/*    height: 200px;*/
+/*    !*transform: skew(x,y);*!*/
+/*    transform: skew(20deg, 40deg) scale(.8);*/
+/*}*/
+
+
+/*8*/
+/*overflow taşma*/
+/*.kutu{*/
+/*    width: 100px;*/
+/*    height: 150px;*/
+/*    background: #D3DBFF;*/
+/*    !*overflow: auto;içerik sığmadığında kaydırma çubuğu çıkar*!*/
+/*    !*overflow: scroll;içerik sığsa da sığmasa da kaydırma çubuğu çıkar*!*/
+/*    !*overflow: hidden;içerikler gösterilmez    *!*/
+/*    !*word-wrap: break-word;sığmayan kelimeyi bölerek alt satıra indirir*!*/
+/*    !*white-space: nowrap;tüm yazıları tek satırda yazmayı sağlar*!*/
+/*    !*white-space: pre;html tarafında yazılar nasıl yazıldıysa o şekilde görünür*!*/
+/*    !*white-space: pre-wrap;html de yazıldığı gibi kutuya tüm yazı sığdırılır*!*/
+/*    !*white-space: pre-line;html de fazladan bırakılan boşlukları algılamaz sadece enterları algılar*!*/
+/*    !*word-break: break-all; boyut kadar yazı yazıp kelime bitmese bile bölüp alt satıra atar.*!*/
+/*    !*word-break: normal;kelime bitince böler*!*/
+
+/*    !*white-space: nowrap;yazıyı tek satıra indirip*!*/
+/*    !*text-overflow: ellipsis;tek satırda işe yarar ve sonuna 3 nokta koyar*!*/
+/*}*/
+
+
+
+/*<!--9-->*/
+/*<!--taşan yazıları 3 nokta ile sonlandırmak-->*/
+
+/*.yontem1{*/
+/*    max-width: 300px;*/
+/*    overflow: hidden;*/
+/*    !*yazıyı kutu haline getirdik*!*/
+/*    display: -webkit-box;*/
+/*    !*kaç satır eklenebileceğini belirledik*!*/
+/*    -webkit-line-clamp:4 ;*/
+/*    !*yukarıdan aşağıya doğru saylacağını belirttik*!*/
+/*    -webkit-box-orient: vertical;*/
+
+/*}*/
+
+
+
+/*10*/
+/*fare işaretçileri*/
+/*.button{*/
+/*    display: inline-block;*/
+/*    padding: 10px 30px;*/
+/*    background: #8BBEB2;*/
+/*    color: #18314F;*/
+/*    font-size: 20px;*/
+/*}*/
+/*.button:hover{*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+
+/*11*/
+/*resim filtreleme*/
+img{
+    /*siyah beyaz yapar yüzdelik değer de girilebilir*/
+    /*filter: grayscale(.5);*/
+
+    /*0 360 arasında değer larak renklerin karışmasını sağlıyor*/
+    /*filter:hue-rotate(120deg) ;*/
+
+    /*kahverengi tonlara dönüştürür yüzde cinsinden değer girilir*/
+    /*filter: sepia(100%);*/
+
+    /*yüzde cinsinden değer alır nrmalı 100% dür parla olması için artırılır bu değer */
+    /*filter: contrast(150%);*/
+
+    /*bulanıklaştırma için kullanılır ve piksel cinsinden değerler alır.*/
+    /*filter: blur(15px);*/
+
+    /*resimlerin negatifini elde etmek için kullanılır*/
+    /*filter: invert(100%);*/
+
+    /*opaklık işlemi içindir. yüzde değer alır*/
+    /*filter: opacity(40%);*/
+
+    /*parlaklık değeridir normali 100% dür. */
+    /*filter: brightness(150%);*/
+
+    /*resimlere doygunluk vermek için kullanılır varsayılan değeri 100%*/
+    /*filter: saturate(120%);*/
+
+    /*resmin etrafına bir gölgelendirme vermek için kullanılır. x y ve blur color değerlerini alır*/
+    /*filter: drop-shadow(5px 5px 10px #af000f);*/
+
+}
+img:hover{
+    filter: none;
+}
